@@ -1,0 +1,5 @@
+Maintain Efficient Process Utilization on Windows 
+1.First we need to know the name of the process which we need to terminate. After knowing the name of the process, use the following command to know the ProcessID(PID) for particular process 
+(Get-Process -Name "Process-Name") 
+2. After running the above command we will get PID. Just kill the process by using the below command
+(taskkill /F /PID 11222)
